@@ -1,56 +1,46 @@
-=================
-Powerline for vim
-=================
+Powerline
+=========
 
 :Author: Kim Silkebækken (kim.silkebaekken+vim@gmail.com)
-:Source: https://github.com/Lokaltog/vim-powerline
-:Version: β
+:Source: https://github.com/Lokaltog/powerline
+:Version: beta
 
-Introduction
-------------
+This is the upcoming version of Powerline, implemented in Python. The 
+project is currently in a stable beta and almost ready for release.
 
-Powerline is a utility plugin which allows you to create better-looking, 
-more functional vim statuslines. See the screenshots below for 
-a demonstration of the plugin's capabilities.
-
-Please see ``doc/Powerline.txt`` for instructions on how to enable and 
-configure the plugin.
-
-**Note:** You need a patched font to be able to use the symbols in the 
-statusbar. An experimental Python/fontforge-based font patcher is included 
-in ``fontpatcher/fontpatcher``.
+* Consult the `documentation <http://lokaltog.github.com/powerline/>`_ for 
+  more information and installation instructions.
+* Check out `powerline-fonts <https://github.com/Lokaltog/powerline-fonts>`_ 
+  for pre-patched versions of popular coding fonts.
 
 Screenshots
 -----------
 
-The screenshot album is also available on imgur_.
+Vim statusline
+^^^^^^^^^^^^^^
 
-.. _Imgur: http://imgur.com/a/RRp4c
+**Mode-dependent highlighting**
 
-**Normal mode**
+* .. image:: https://raw.github.com/Lokaltog/powerline/develop/docs/source/_static/img/pl-mode-normal.png
+     :alt: Normal mode
+* .. image:: https://raw.github.com/Lokaltog/powerline/develop/docs/source/_static/img/pl-mode-insert.png
+     :alt: Insert mode
+* .. image:: https://raw.github.com/Lokaltog/powerline/develop/docs/source/_static/img/pl-mode-visual.png
+     :alt: Visual mode
+* .. image:: https://raw.github.com/Lokaltog/powerline/develop/docs/source/_static/img/pl-mode-replace.png
+     :alt: Replace mode
 
-.. image:: http://i.imgur.com/xFmOt.png
+**Automatic truncation of segments in small windows**
 
-**Insert mode**
+* .. image:: https://raw.github.com/Lokaltog/powerline/develop/docs/source/_static/img/pl-truncate1.png
+     :alt: Truncation illustration
+* .. image:: https://raw.github.com/Lokaltog/powerline/develop/docs/source/_static/img/pl-truncate2.png
+     :alt: Truncation illustration
+* .. image:: https://raw.github.com/Lokaltog/powerline/develop/docs/source/_static/img/pl-truncate3.png
+     :alt: Truncation illustration
 
-.. image:: http://i.imgur.com/5vDlB.png
+----
 
-**Command-T buffer** with custom color
+The font in the screenshots is `Pragmata Pro`_ by Fabrizio Schiavi.
 
-.. image:: http://i.imgur.com/fDIhz.png
-
-**Tagbar buffer** with custom color
-
-.. image:: http://i.imgur.com/WZUvj.png
-
-**Symbols when buffer is modified or read-only**
-
-.. image:: http://i.imgur.com/dGJHZ.png
-
-**Split window showing inactive buffer statusline**
-
-.. image:: http://i.imgur.com/z18KU.png
-
-**Normal mode without custom font**
-
-.. image:: http://i.imgur.com/yCybn.png
+.. _`Pragmata Pro`: http://www.fsd.it/fonts/pragmatapro.htm
